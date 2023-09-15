@@ -1,0 +1,130 @@
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Monserrat", sans-serif;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/stars.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center;
+	
+	
+}
+
+nav {
+	font-family: "Nunito";
+	font-style: bold;
+	font-size: 19px;
+	position: fixed;
+	top: 0;
+  	right: 0;
+  	left: 0;
+  	z-index: 1030;
+  	overflow: hidden;
+	/*background-image: url(images/stars.png);
+	background-size: width:1000px height:100px;*/
+	
+}
+
+#navlogo {
+	width: 85px;
+	height: 85px;
+	
+}
+
+/*Landing Section*/
+#landing {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/stars.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    padding-top: 120px;
+    padding-left: 20px;
+}
+#greet {
+	font-family: "Cabin";
+	padding: 1px;
+	margin: 1px;
+
+}
+
+#name {
+	font-family: "Cabin";
+	font-weight: bold;
+	font-size: 85px;
+	text-shadow: 3px 3px black;
+
+}
+#position {
+	color:;
+}
+#about {
+	font-style: italic;
+	color: darkgray;
+	padding-inline: 0px;
+}
+
+#projects{
+	background-color: black;
+	padding: auto;
+
+}
+
+
+#card {
+	width: 18rem;
+}
+
+
+#profile-1 {
+	
+}
+
+#bg-reach {
+	background-image: url(images/moon.png);
+	background-repeat: no-repeat;
+    background-size: 20%;
+    color: white;
+    background-position: center;
+    padding-top: 120px;
+    padding-left: 20px;
+}
+
+.social-icons {
+	color: white;
+	fill: white;
+	border-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px; 
+    margin: 0 10px; 
+}
+
+#submit_button {
+	background-color: #08E883;
+	border-radius: 10%;
+	border-color: #08E883;
+
+}
+
+.bg-white {
+	color: blue; 
+
+}
+
+#projects, #contact{
+	
+	text-shadow: 1px 1px black;
+}
